@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.missing p{line-height: 18px;}
+.missing a{padding: 6px 6px;}
+.sighting h3{font-size: 12px;}
+.sighting p{line-height: 18px;margin: 5px 0 10px 0;}
+.android h3{margin-bottom: 2px; text-align:center;}
+.android p{font-size: 12px;}
+.android img{height: 66px;}
+.android a span{margin-left: 3px;}
+.home h3 {font-size: 14px;margin-bottom: 3px;}
+.citizen a { font-size: 12px;}
+
+@media screen and (min-width: 810px) and (max-width: 1040px) {
+	 .missing ul li a{margin: 2px 0px;}
+	 .banner { width:53%;}
+	 .search { width: 50%;}
+	 .info_form {width: 28%;}
+	 .statistic{ width:17%;}
+	 .search input[type="text"]{ width:70%;}
+	 .missing a{padding: 6px 0px;}
+	 .missing, .sighting {min-height: 103px;}
+	 .police a, .home a{padding: 6px 4px;}
+	 .home h3{font-size: 13px;}
+	 .missing p{font-size: 12px;}
+	 .police, .home{width: 11.3%;}
+	 .android h3{font-size: 14px;}
+	 .android a{height: 28px;margin-top: 1px;}
+	 .android a span{font-size: 11px;}
+	 .android a img{height: 20px;}
+	 .android, .e-pamphlet {width: 14.5%;}
+	 .search_left {width: 74%;}
+	 .search_right {width: 21%;}
+	 .citizen ul {margin-left: 16px;}
+	 .citizen img.khoya {height: 71px;}
+
+}
+@media only screen and (max-width: 800px) {
+	.missing ul li a{ margin:2px 0;}
+}

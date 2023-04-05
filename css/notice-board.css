@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+#body_area {
+    width: 80%;
+    height: 100%;
+	border:2px dashed #ffe7d6;
+    background: #fff;
+    -webkit-animation: myfirst 30s; /* Chrome, Safari, Opera */
+    animation: myfirst 30s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    from {background: #fff;}
+    to {background: #ffd9bf;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+     from {background: #fff;}
+    to {background: #ffd9bf;}
+}
+#wrapper {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+.publish{
+	color:#666;
+}
+.publish:hover{
+	color:#333;
+}
+.ui-widget-content a{
+	font:16px;
+	font-weight:bold;
+	color:#D74600;
+	text-decoration:none;
+	padding:0 0 0 10px;
+	
+}
+.ui-widget-content a:hover{
+	color:#800000;
+}
+.order_title{
+color:#3C87A4;
+}
+#content_spc{
+	color:#282828;
+	font-size:14px;
+	width:100%;
+	font-weight:normal;
+}
+.tab_link {
+	font:14px;
+	color:#E84B00;
+}
+#extra_li{
+list-style:none;
+background:url(../images/report.png) no-repeat left;
+}
+.photo_link{
+color:#7E7B61;
+}
+/*.quick_link a:hover{
+background-color:#C2DAEB;
+}
+#extra_li a:hover{
+background-color:#C2DAEB;
+}*/
+
+
+.tabs {
+	height:500px; width:96%; 
+	float: left; margin-left: 3px; 
+	background: #ddd url(../index.html) repeat top left;
+	overflow-y: scroll;
+	padding:2px;
+	border-radius: 0 8px 8px 8px;
+	-webkit-box-shadow:0 0 6px #1D6D60 inset;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+::-webkit-resizer  { }

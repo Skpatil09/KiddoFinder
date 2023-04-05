@@ -1,0 +1,67 @@
+.Three-Dee{
+line-height: 1em;
+color: #F1B87A;
+font-weight:bold;
+font-size: 23px;
+font-size: 1.3em;
+color: #ED5139;
+float:left;	
+margin-bottom:20px;
+}
+.contact_head1
+{
+background-image: url(../images/Admin_contact.png);
+background-size: 37px 30px;
+background-position: 6px 0px;
+background-repeat: no-repeat;
+padding-left:50px;
+height:30px;
+}
+.th_class
+{
+	background-color:#247891;
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#35a2c1), to(#247891));
+background: -webkit-linear-gradient(top, #35a2c1, #247891);
+background: -moz-linear-gradient(top, #35a2c1, #247891);
+background: -ms-linear-gradient(top, #35a2c1, #247891);
+background: -o-linear-gradient(top, #35a2c1, #247891);
+font-size:.9em;
+line-height:1.5em;
+color:#FFF;
+font-weight:normal;
+text-align:left;
+border-right:#CCC 1px solid;
+}
+.th_class1
+{
+/* Note: This gradient may render differently in browsers that don't support the unprefixed gradient syntax */
+
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(bottom left, #05519E 0%, #EFEBEA 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(bottom left, #05519E 0%, #EFEBEA 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(bottom left, #05519E 0%, #EFEBEA 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0, #05519E), color-stop(1, #EFEBEA));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(bottom left, #05519E 0%, #EFEBEA 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to top right, #05519E 0%, #EFEBEA 100%);
+font-size:15px;
+border-left:1px solid;
+height:40px;
+color:#FFF;
+}
+.td_class{
+/* IE10 Consumer Preview */ 
+padding:5px 10px;
+font-size:.85em;
+color:#555555;
+text-align:left;
+}

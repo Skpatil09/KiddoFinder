@@ -1,0 +1,9 @@
+
+.carousel, .carousel2, .carousel3, .carousel4{width:100%;}
+
+ /*.carousel,.carousel4{height:100vh;}
+.carousel2, .carousel3{height:30vh;}*/
+
+.carousel, .carousel2, .carousel3, .carousel4{height:100%;}
+ 
+/*  .carousel2 img, .carousel3 img{height:225px;}*/

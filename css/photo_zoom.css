@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+.zoom_img{
+				/*height:100px;*/
+				width:100px;
+				-moz-transition:-moz-transform 0.5s ease-in; 
+				-webkit-transition:-webkit-transform 0.5s ease-in; 
+				-o-transition:-o-transform 0.5s ease-in;
+				position: relative;
+			}
+.zoom_img:hover{
+				-moz-transform:scale(2); 
+				-webkit-transform:scale(2);
+				-o-transform:scale(2);
+			}
+.zoom_img:hover > .magnefine{
+				display:none;
+			}
+
+.magnefine {
+	
+	}
+.id-img{
+	position: relative;
+	}
+.id-img:before{
+	background-image: url(../images/zoomin.png);
+	background-repeat: no-repeat;
+	width:32px;
+	height: 32px;
+	position: absolute;
+    content:"";
+    background-position: center;
+    background-size: contain;
+	left: 0px;
+	z-index:2;
+	}
+.id-img:hover:before{
+	background-image: none;
+	}
+
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,86 @@
+/*	Responsive Accordion v1.3, Copyright 2014, Joe Mottershaw, https://github.com/joemottershaw/
+//	============================================================================================ */
+
+/*	Table of Contents
+//	==================================================
+//		#Reset
+//		#Themes
+
+
+/*	#Reset
+//	================================================== */
+
+	.responsive-accordion {
+		margin: 0 0 20px 0;
+		padding: 0;
+		list-style-type: none;
+	}
+
+	.responsive-accordion li {
+		margin: 0 0 4px 0;
+		padding: 0;
+	}
+
+	.responsive-accordion li:last-child { margin-bottom: 0; }
+
+	.responsive-accordion li .responsive-accordion-head { cursor: pointer;}
+
+	.responsive-accordion li .responsive-accordion-head.active { font-weight: bold; }
+
+
+/*	#Themes
+//	================================================== */
+
+	.responsive-accordion-default.responsive-accordion li .responsive-accordion-head {
+		border: 1px solid #DDD;
+		padding: 10px 30px 10px 10px;
+		color: #0b8593;
+		line-height: normal;
+		position: relative;
+		font:16px ;
+	}
+.responsive-accordion-default.responsive-accordion li .responsive-accordion-head:hover {
+		
+		background: #ddd;
+		/* Firefox */
+    -moz-transition: all 0.2s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.2s ease-in;
+    /* Opera */
+    -o-transition: all 0.2s ease-in;
+    /* Standard */
+    transition: all 0.2s ease-in;
+	}
+	.responsive-accordion-default.responsive-accordion li .responsive-accordion-head i {
+		position: absolute;
+		top: 12px;
+		right: 10px;
+	}
+
+	.responsive-accordion-panel {
+		border: 1px solid #DDD;
+		border-top: 0;
+		padding: 20px;
+		background: #FFF;
+		/*opacity: 0.6;
+   	    filter: alpha(opacity=40); */
+	}
+	
+	.responsive-accordion-panel p{
+		
+		font:15px #000 bold !important;
+		color:#900;
+		/*color:#0b8593;*/
+		padding-left:10px;
+		font-weight: bold;
+	}
+	
+	.menu_subhead{
+	background: url("../../images/middle-bg.jpg") repeat;
+     /* background: #ECEBD7;*/
+	   z-index:70;
+	   opacity: 5;
+	}
+	#stakename{
+		padding-left:10px;
+	}
